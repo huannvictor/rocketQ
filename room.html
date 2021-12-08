@@ -6,6 +6,7 @@
     <title>Rocket.Q - Perguntas e Respostas</title>
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/room.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,25 +58,22 @@
         <section id="questions">
           <h2 class="sr-only">Perguntas da comunidade</h2>
           <div class="questions">
-
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
                   <img src="assets/pictures/user-white.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>
-                    Qual a diferença entre const, var e let no Javascript?
-                  </p>
+                  <p>Qual a diferença entre const, var e let no Javascript?</p>
                 </div>
               </div>
               <div class="actions">
                 <a class="check" href="#">
-                  <img src="assets/pictures/check.svg" alt="Marcar como lida">
+                  <img src="assets/pictures/check.svg" alt="Marcar como lida" />
                   Marcar como lida
                 </a>
                 <a class="delete" href="#">
-                  <img src="assets/pictures/trash.svg" alt="Excluir">
+                  <img src="assets/pictures/trash.svg" alt="Excluir" />
                   Excluir
                 </a>
               </div>
@@ -87,18 +85,16 @@
                   <img src="assets/pictures/user-white.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>
-                    O que é Typescript?
-                  </p>
+                  <p>O que é Typescript?</p>
                 </div>
               </div>
               <div class="actions">
                 <a class="check" href="#">
-                  <img src="assets/pictures/check.svg" alt="Marcar como lida">
+                  <img src="assets/pictures/check.svg" alt="Marcar como lida" />
                   Marcar como lida
                 </a>
                 <a class="delete" href="#">
-                  <img src="assets/pictures/trash.svg" alt="Excluir">
+                  <img src="assets/pictures/trash.svg" alt="Excluir" />
                   Excluir
                 </a>
               </div>
@@ -110,23 +106,40 @@
                   <img src="assets/pictures/user-white.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>
-                    O que é Javascript?
-                  </p>
+                  <p>O que é Javascript?</p>
                 </div>
               </div>
               <div class="actions">
                 <a class="check" href="#">
-                  <img src="assets/pictures/check.svg" alt="Marcar como lida">
+                  <img src="assets/pictures/check.svg" alt="Marcar como lida" />
                   Pergunta lida
                 </a>
               </div>
             </div>
-
-
           </div>
         </section>
       </main>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que você deseja excluir esta pergunta?</p>
+        
+        <form action="">
+          <label for-id="password" class="sr-only">Digite sua senha</label>
+          <input 
+            type="password" 
+            name="password" 
+            id="password" 
+            placeholder="Digite sua senha" />
+          <div class="buttons">
+            <div class="button grey">Cancelar</div>
+            <button class="red" type="submit">Sim, Excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
