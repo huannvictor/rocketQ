@@ -53,12 +53,15 @@ textarea {
   font-family: 'Open Sans', sans-serif;
 }
 
-textarea:focus,
 input:focus,
 select:focus {
   border: 2px solid var(--grey-blue);
   outline: 0;
-} 
+}
+
+textarea:focus {
+  outline: 0;
+}
 
 .content {
   width: 100%;
@@ -114,14 +117,14 @@ button.outlined,
 .button.outlined {
   background: var(--white);
   color: var(--blue);
-  border: .2rem solid var(--blue);
+  border: 0.2rem solid var(--blue);
 }
 
-.content header{
+.content header {
   width: 80%;
   margin: 3.5rem auto;
 }
 
-.content header img{
+.content header img {
   width: 16.7rem;
 }
