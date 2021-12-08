@@ -142,6 +142,7 @@
 
 .question-wrapper.read {
   background: var(--grey-medium);
+  margin-bottom: 0.8rem;
 }
 
 .question-wrapper.read .question-content .user {
