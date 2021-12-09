@@ -37,5 +37,9 @@ module.exports = {
     await db.close()
 
     res.redirect(`/room/${roomId}`)
+  },
+
+  open(req, res) {
+    res.render('room')
   }
 }
