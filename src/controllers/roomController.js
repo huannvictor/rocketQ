@@ -40,6 +40,7 @@ module.exports = {
   },
 
   open(req, res) {
-    res.render('room')
+    const roomId = req.params.room
+    res.render('room', {roomId: roomId})
   }
 }
