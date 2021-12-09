@@ -1,13 +1,16 @@
 const express = require('express')
 const QuestionControler = require('./controllers/questionController')
+const RoomController = require('./controllers/roomController')
 
 const route = express.Router()
 
-route.get('/', (req, res) => res.render('index'))
-route.get('/room.ejs', (req, res) => res.render('room'))
-route.get('/create-pass.ejs', (req, res) => res.render('create-pass'))
+route.get('/', (req, res) => res.render('index', {page: 'enter-room'}))
+route.get('/create-pass.ejs', (req, res) => res.render('index', {page: 'create-pass'}))
 
-// formato do formulário dentro do modal
-route.post('/room/:room/:question/:action', QuestionControler.index)
+route.get('/room/:room', (req, res) => res.render('room'))
+
+
+route.post('/question/:room/:question/:action', QuestionControler.index)
+route.post('/create-room', RoomController.create)
 
 module.exports = route
