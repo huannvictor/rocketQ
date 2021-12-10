@@ -60,6 +60,7 @@
         <section id="questions">
           <h2 class="sr-only">Perguntas da comunidade</h2>
           <div class="questions">
+
             <% questions.forEach(question => { %>
 
             <div class="question-wrapper">
@@ -83,7 +84,9 @@
               </div>
             </div>
 
-            <% }) %> <% questionsRead.forEach( questionRead => { %>
+            <% }) %> 
+            
+            <% questionsRead.forEach( questionRead => { %>
 
             <div class="question-wrapper read">
               <div class="question-content">
