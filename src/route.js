@@ -7,10 +7,10 @@ const route = express.Router()
 route.get('/', (req, res) => res.render('index', {page: 'enter-room'}))
 route.get('/create-pass.ejs', (req, res) => res.render('index', {page: 'create-pass'}))
 
+route.post('/create-room', RoomController.create)
 route.get('/room/:room?', RoomController.open)
 
-
+route.post('/question/create/:room', QuestionControler.create)
 route.post('/question/:room/:question/:action', QuestionControler.index)
-route.post('/create-room', RoomController.create)
 
 module.exports = route
