@@ -12,9 +12,7 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
 </p>
 
 <h2>Tempo dedicado ao projeto:</h2>
-<a href="https://wakatime.com/badge/user/5a2e9d27-6aba-49b5-9755-f97369431e1e/project/de868ec6-36b9-4e5d-bf72-46197a537be7">
-  <img src="https://wakatime.com/badge/user/5a2e9d27-6aba-49b5-9755-f97369431e1e/project/de868ec6-36b9-4e5d-bf72-46197a537be7.svg" alt="wakatime">
-</a>
+<a href="https://wakatime.com/badge/user/5a2e9d27-6aba-49b5-9755-f97369431e1e/project/62fcedac-d24c-4a2c-909f-6f056931a7ad"><img src="https://wakatime.com/badge/user/5a2e9d27-6aba-49b5-9755-f97369431e1e/project/62fcedac-d24c-4a2c-909f-6f056931a7ad.svg" alt="wakatime"></a>
 
 <h2 align="center">Tecnologias</h2>
 <div align="center" style="display: inline">
