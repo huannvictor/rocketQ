@@ -18,7 +18,7 @@ module.exports = {
       }
       res.redirect(`/room/${roomId}`)
     } else {
-      res.render('passincorrect', { roomId: roomId })
+      res.render('./parts/passincorrect', { roomId: roomId })
     }
   },
 
