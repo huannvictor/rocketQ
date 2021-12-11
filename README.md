@@ -52,7 +52,7 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
   <img alt="OriginSix" src="https://raw.githubusercontent.com/huannvictor/rocketQ/master/public/images/layout.png" width="100%">
 
   <p>
-    Mais sobre o layour do projeto acesse <a href:"https://www.figma.com/file/nVnkNv2uYlJ7M6SILXe6Jz/Roquet.q-(Community)?node-id=159%3A1143" >o figma</a>
+    Mais sobre o layour do projeto acesse <a href:"https://www.figma.com/community/file/1009821158959690135" >o figma</a>
   </p>
 </div>
 
