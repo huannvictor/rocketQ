@@ -1,8 +1,7 @@
-<h1 align="center"> <img src="https://raw.githubusercontent.com/huannvictor/nlwOrignSix/master/assets/pictures/nlwTogether.svg"></h1> 
+<h1 align="center"> <img src="https://raw.githubusercontent.com/huannvictor/rocketQ/master/public/images/nlwTogether.svg"></h1> 
 
-<p align="center"><em>Confira o resultado do projeto em: <a href="https://huannvictor.github.io/nlwOrignSix/">huannvictor.github.io/nlwOrignSix</a></em></p>
 
-<h2 align="center">Sobre o projeto: OrignSix</h2>
+<h2 align="center">Sobre o projeto: Rocket.Q</h2>
 <p align="justify">
 OriginSix é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas.  
 Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer.
@@ -22,24 +21,25 @@ Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoi
 
 <h2 align="center">Bibliotecas & Utiliários</h2>
 <div align="center" style="display: inline">
+  <a href="https://nodejs.org/en/">
+    <img src="https://img.shields.io/badge/Engine-NodeJS-green" alt="NodeJs">
+  </a>
+    <a href="https://ejs.co/">
+    <img src="https://img.shields.io/badge/Engine-EJS-green" alt="Ejs">
+  </a>
+  
+  </a>
+    <a href="https://expressjs.com/pt-br/">
+    <img src="https://img.shields.io/badge/Biblioteca-Express-blue" alt="Express">
+  </a>
+  
+  </a>
+    <a href="https://www.sqlite.org/index.html">
+    <img src="https://img.shields.io/badge/Biblioteca-SQLite-blue" alt="SQLite">
+  </a>
+
   <a href="https://fonts.google.com/">
     <img src="https://img.shields.io/badge/Biblioteca-GoogleFonts-blue" alt="Google Fonts">
-  </a>
-  <a href="https://github.com/nolimits4web/Swiper">
-    <img src="https://img.shields.io/badge/Biblioteca-Swiper-blue" alt="Google Swiper">
-  </a>
-    <a href="https://scrollrevealjs.org">
-    <img src="https://img.shields.io/badge/Biblioteca-ScrollRevel-blue" alt="ScrollRevel">
-  </a>
-  
-  </a>
-    <a href="https://randomuser.me/photos">
-    <img src="https://img.shields.io/badge/Utilitário-Randomuser-9cf" alt="Randomuser">
-  </a>
-  
-  </a>
-    <a href="https://icomoon.io/app/#/select">
-    <img src="https://img.shields.io/badge/Utilitário-IconMoon-9cf" alt="IconMoon">
   </a>
 </div>
 
