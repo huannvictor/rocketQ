@@ -2,9 +2,13 @@
 
 
 <h2 align="center">Sobre o projeto: Rocket.Q</h2>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/huannvictor/rocketQ/master/public/images/rocketq.png" alt="Logo Roket.q">
+</div>
+
 <p align="justify">
-OriginSix é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas.  
-Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer.
+O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.
 </p>
 
 <h2>Tempo dedicado ao projeto:</h2>
@@ -21,10 +25,12 @@ Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoi
 
 <h2 align="center">Bibliotecas & Utiliários</h2>
 <div align="center" style="display: inline">
+
   <a href="https://nodejs.org/en/">
     <img src="https://img.shields.io/badge/Engine-NodeJS-green" alt="NodeJs">
   </a>
-    <a href="https://ejs.co/">
+
+  <a href="https://ejs.co/">
     <img src="https://img.shields.io/badge/Engine-EJS-green" alt="Ejs">
   </a>
   
@@ -45,7 +51,11 @@ Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoi
 
 <h2 align="center">Layout</h2>
 <div align="center">
-  <img alt="OriginSix" src="https://raw.githubusercontent.com/huannvictor/nlwOrignSix/master/assets/pictures/layout.png" width="100%">
+  <img alt="OriginSix" src="https://raw.githubusercontent.com/huannvictor/rocketQ/master/public/images/layout.png" width="100%">
+
+  <p>
+    Mais sobre o layour do projeto acesse <a href:"https://www.figma.com/file/nVnkNv2uYlJ7M6SILXe6Jz/Roquet.q-(Community)?node-id=159%3A1143" >o figma</a>
+  </p>
 </div>
 
 <p align="right"> Huann Almeida </p>
